@@ -1,6 +1,5 @@
 body {
 	text-align: center;
-	font-family: 'Tangerine', serif;
 	width: 600px;
 	margin: 0px auto;
 	background-color: #cdcdcd;
@@ -18,9 +17,17 @@ h1 {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+	font-family: 'Tangerine', serif;
 }
 
 #intro {
 	text-align: left;
 	font-size: 1.2em;
+}
+
+#quoteGenerator {
+	background: #B3D3B3;
+	border-radius: 50px;
+	font-family: 'Tangerine', serif;
+	font-size: 36px;
 }
