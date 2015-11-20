@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	width: 600px;
+	font-family: 'Radley', serif;
 	margin: 0px auto;
 	background-color: #cdcdcd;
   background: url(http://subtlepatterns.com/patterns/symphony.png);
@@ -9,7 +9,7 @@ body {
 h1 {
   text-shadow: 4px 4px 4px #aaa;
   margin: 10px auto;
-  font-size: 2em;
+  font-size: 4em;
   color: #333;
   display: block;
   -webkit-margin-before: 0.67em;
@@ -21,13 +21,37 @@ h1 {
 }
 
 #intro {
+	margin: 0px auto;
+	width: 600px;
 	text-align: left;
 	font-size: 1.2em;
 }
 
 #quoteGenerator {
 	background: #B3D3B3;
-	border-radius: 50px;
+	border-radius: 15px;
 	font-family: 'Tangerine', serif;
 	font-size: 36px;
+	height: 50px;
+	width: 150px;
+	margin: 20px auto;
+	box-shadow: -5px 5px 10px rgba(100, 100, 100, .8);
+}
+
+#quoteDiv {
+	font-family: 'Cardo', serif;
+	font-size: 1.5em;
+	width: 600px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	background: #FFFFFF;
+	padding: 25px 25px;
+	border-radius: 20px;
+	box-shadow: -10px 10px 20px rgba(100, 100, 100, .8);
+}
+
+#author {
+	font-style: italic;
+	text-align: center;
 }
