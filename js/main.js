@@ -48,9 +48,6 @@ $(document).ready(function() {
 	var currentQuote = randomQuote();
 	
 	function updateTwitterUrl () {
-		// console.log(currentQuote);
-		// var quote = encodeURIComponent(currentQuote);
-		// console.log(quote);
 		var quote = twittify(currentQuote);
 		var url = "https://twitter.com/intent/tweet?text=" + quote;
 		$(".twitter-share-button").attr("href", url);
