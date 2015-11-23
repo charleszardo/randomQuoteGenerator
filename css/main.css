@@ -55,3 +55,14 @@ h1 {
 	font-style: italic;
 	text-align: center;
 }
+
+#twitter-logo {
+	height: 10%;
+	width: 10%;
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
+#twitter-logo:hover {
+	opacity: 1;
+}
